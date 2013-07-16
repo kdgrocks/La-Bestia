@@ -7,6 +7,14 @@ namespace RoomAllotter
 {
     class optimization
     {
+        /// <summary>
+        ///This is a set of optimization algorithms. 
+        /// </summary>
+        /// <param name="sol">The soltion to the optimization algorithms should be a list of integers. 
+        /// Find out a way to represent solution specific to your problem as a list of integers </param>
+        /// <param name="Domain"> This is a list of tuple, each tuple corresponds to the (Maximum,Minimum) value for the solution list  </param>
+        /// <param name="caluc"> This is the cost function, you should write a cost funciton specific to your problem </param>
+	
         public List<int> RandomFinder(List<Tuple<int, int>> Domain, Func<List<int>, double> caluc, int times = 1000)
         {
             Random myRand = new Random();

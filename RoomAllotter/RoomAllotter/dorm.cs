@@ -7,11 +7,12 @@ namespace RoomAllotter
 {
     class dorm : optimization
     {
-        public List<String> dorms = new List<String> { "Zeus", "Athena", "Hercules", "Bacchus", "Pluto" };
+        public List<String> dorms = new List<String> { "Zeus", "Athena", "Hercules", "Bacchus", "Pluto" };// List of room names 
         public List<Tuple<String, String, String>> pref = new List<Tuple<string, string, string>>();
-        public List<Tuple<int, int>> Domain = new List<Tuple<int, int>>();
+        public List<Tuple<int, int>> Domain = new List<Tuple<int, int>>(); // Domain of values for the soultion
         public dorm()
         {
+		    // pref.Add("students name", "first choice", "second choice")
             pref.Add(Tuple.Create("Toby", "Bacchus", "Hercules"));
             pref.Add(Tuple.Create("Steve", "Zeus", "Pluto"));
             pref.Add(Tuple.Create("Andrea", "Athena", "Zeus"));
