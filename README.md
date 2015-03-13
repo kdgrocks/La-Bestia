@@ -1,6 +1,6 @@
-La-Bestia (The Beast)
+FunctionOptimizer
 =========
-La-Bestia is the beast of optimization.It has several optimization algorithms implemented in c# 
+FunctionOptimizer is the beast of optimization.It has several optimization algorithms implemented in c# 
 	- RandomFinder
 	- HillClimbing
 	- Stimulated Annealing
